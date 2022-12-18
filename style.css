@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: space-between; 
     margin: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;    
 }
 
 button, input[type="submit"], input[type="reset"] {
@@ -63,7 +63,6 @@ a:active {
     font-size: 18px;
     align-items: center;
     color: #e5e7eb;
-    font-family: roboto;
     padding-right: 15%;
 }
 
@@ -90,12 +89,25 @@ li {
     background-color: #1F2837;
     padding-right: 15%;
     padding-left: 15%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .sect1btn {
     padding: 16px;
+}
+
+.section1-grp1 {
+    width: 100%
+}
+
+.section1-grp2 {
+    display: flex;                           
+    justify-content: flex-end;               
+    align-items: flex-start;
+    width: 100%;
+    padding: 16px;
+    margin-left: auto;
 }
 
 .grp1 {
@@ -104,14 +116,19 @@ li {
 }
 
 .main-title {
-    font-size: 48pt;
+    font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
 }
 
 .sub-text {
-    font-size: 18pt;
+    font-size: 18px;
     color: #e5e7eb
+}
+
+.sect1btn {
+    display: flex;
+
 }
 
 .grp2 {
@@ -131,6 +148,9 @@ li {
 .section2-title {
 margin: auto;
 text-align: center;
+font-size: 36px;
+font-weight: 900;
+padding-bottom: 32px;
 }
 
 .items {
@@ -202,15 +222,18 @@ text-align: center;
     width: 100%
 }
 
+.cta-subtxt {
+    font-weight: 900;
+}
+
 .B1, .B2 {
     background-color: #3882f6;
     border-color: #e5e7eb;
     position: absolute;
     color: #fff;
     border-radius:4px; 
-    padding:15px;
-    min-height:25px; 
-    min-width: 120px;
+    min-height:40px; 
+    min-width: 140px;
     
 }
 
