@@ -93,9 +93,6 @@ li {
     padding-bottom: 100px;
 }
 
-.sect1btn {
-    padding: 16px;
-}
 
 .section1-grp1 {
     width: 100%
@@ -128,6 +125,7 @@ li {
 
 .sect1btn {
     display: flex;
+    padding-top: 16px;
 
 }
 
@@ -193,6 +191,11 @@ padding-bottom: 32px;
     font-style: italic;
 }
 
+.quoteref {
+    font-weight: 900;
+    font-size: 20px;
+}
+
 .section4 {
     display: flex;
     flex-wrap: wrap;
@@ -208,6 +211,7 @@ padding-bottom: 32px;
 
 .section4-cta {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     background-color: #3882f6;
     color: #e5e7eb;
@@ -219,11 +223,12 @@ padding-bottom: 32px;
 }
 .section4-grp {
     display: flex;
-    width: 100%
+    flex: 1;
 }
 
 .cta-subtxt {
-    font-weight: 900;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .B1, .B2 {
@@ -242,10 +247,16 @@ padding-bottom: 32px;
     border-style: solid;
 }
 
+.cta-title {
+    font-weight: 900;
+    font-size: 18px;
+}
+
 .s4button {
     display: flex;
-    width: 100%;
+    flex: 2;
     justify-content: end;
+    align-items: center;
 }
 .footer {
     display: flex;
